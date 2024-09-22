@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noEmit": true,
+        "moduleResolution": "NodeNext",
+        "allowImportingTsExtensions": true,
+        
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        
+        // Allows using top-level await
+        "module": "NodeNext",
+        "target": "es2017",
+    }
+}
