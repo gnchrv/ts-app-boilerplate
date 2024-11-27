@@ -7,7 +7,7 @@
     "scripts": {
         "dev": "node esbuild.mjs watch",
         "lint": "eslint .",
-        "build": "npx tsc && node esbuild.mjs build",
+        "build": "npx tsc && npm run lint && node esbuild.mjs build",
         "start": "node dist/index.js"
     },
     "keywords": [],
