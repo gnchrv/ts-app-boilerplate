@@ -18,7 +18,7 @@ export default [
         // Custom rules
         rules: {
             'semi': ['warn', 'never'],
-            'indent': ['warn', 4],
+            'indent': ['warn', 4, { 'SwitchCase': 1 }],
             'eol-last': ['warn', 'never'],
             'no-unused-expressions': 'warn',
             'no-irregular-whitespace': 'off',
