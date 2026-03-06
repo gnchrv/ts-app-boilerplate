@@ -187,3 +187,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# IntelliJ IDEA
+.idea
+
+# Claude Code
+.claude/
