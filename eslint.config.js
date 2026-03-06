@@ -26,7 +26,7 @@ export default [
             '@typescript-eslint/no-unused-vars': 'warn',
             'quotes': ['warn', 'single', { 'allowTemplateLiterals': true }],
             'perfectionist/sort-imports': ['warn', {
-                newlinesBetween: 'never',
+                newlinesBetween: 0,
                 type: 'line-length'
             }]
         }
