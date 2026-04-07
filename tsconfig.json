@@ -10,6 +10,6 @@
         
         // Allows using top-level await
         "module": "NodeNext",
-        "target": "es2017",
+        "target": "es2022",
     }
 }

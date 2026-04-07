@@ -14,7 +14,7 @@ const options = {
     sourcemap: true,
 
     // A target environment (esbuild doesn’t support this option specified in tsconfig.json)
-    target: 'node16',
+    target: 'node20',
 
     // Adjust the output to the node-friendly environment
     platform: 'node',

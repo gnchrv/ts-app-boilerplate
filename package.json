@@ -10,6 +10,9 @@
         "build": "npm audit --audit-level=high && tsc && npm run lint && node esbuild.mjs build",
         "start": "node dist/index.js"
     },
+    "engines": {
+        "node": ">=20"
+    },
     "keywords": [],
     "author": "Misha Goncharov",
     "license": "MIT",
