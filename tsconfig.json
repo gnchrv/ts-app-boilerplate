@@ -10,6 +10,9 @@
 
         // Allows using top-level await
         "module": "NodeNext",
-        "target": "es2023"
+        "target": "es2023",
+
+        // Ensure the TypeScript compiler detects node types from `@types/node`
+        "types": ["node"]
     }
 }
